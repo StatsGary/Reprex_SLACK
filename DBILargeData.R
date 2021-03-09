@@ -14,7 +14,7 @@ con <- dbConnect(odbc(),
                  Database = db, 
                  Trusted_Connection = "True")
 
-## Create data frame with 80 columns and 10 Million Rows
+## Create data frame with 80 columns and 20 Million Rows
 #dat <- do.call(data.frame, replicate(80, rep(1, 20000000), simplify=FALSE))
 
 
